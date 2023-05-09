@@ -1,4 +1,4 @@
-import { Avatar } from 'flowbite-react';
+import Avatar from '@/components/atoms/Avatar';
 
 export default function Home() {
   return (
@@ -10,11 +10,7 @@ export default function Home() {
       <div>Uses Flowbite to add these Avatars</div>
 
       <div className="flex flex-wrap gap-2">
-        <Avatar
-          img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
-          rounded={true}
-        />
-        <Avatar img="https://flowbite.com/docs/images/people/profile-picture-5.jpg" />
+        <Avatar src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" />
       </div>
     </div>
   );

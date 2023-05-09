@@ -1,6 +1,6 @@
 const PATTERNS = {
   body: /.*(-\s[^\n]+\n{0,1})+/,
-  footer: /([Cc]loses|[iI]mplements|[fF]ixes|[rR]elates to) #\d+$/,
+  footer: /([Cc]loses|[iI]mplements|[fF]ixes|[rR]elates to) \w*#\d+$/,
   exampleFooter: 'closes #23', //closes #{issue-number}
   exampleBody: '\n- hello\n- world\n',
 };
